@@ -17,7 +17,7 @@ while($coin_total > 0)
 {
 ?>
 <?php
-echo "<img src='/images/coinrepublic48.png'>";
+echo "<img src='/images/".$coin.".png'>";
   $coin_total--;
 }
 ?>
